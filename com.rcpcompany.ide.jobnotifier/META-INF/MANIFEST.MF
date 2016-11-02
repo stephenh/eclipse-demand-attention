@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Job Notifier
+Bundle-SymbolicName: com.rcpcompany.ide.jobnotifier;singleton:=true
+Bundle-Version: 1.0.1.qualifier
+Bundle-Activator: com.rcpcompany.ide.jobnotifier.internal.Activator
+Bundle-Vendor: Tonny Madsen, The RCP Company
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: jna-4.2.2.jar,
+ jna-platform-4.2.2.jar,
+ .
